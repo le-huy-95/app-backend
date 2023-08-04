@@ -7,7 +7,7 @@ const configCors = (app) => {
     app.use(function (req, res, next) {
         // console.log(req.method, req.headers.origin)
         // Website you wish to allow to connect
-        res.setHeader('Access-Control-Allow-Origin', 'https://new-fontend-deploy-app.vercel.app');
+        res.setHeader('Access-Control-Allow-Origin', 'http://localhost:3000');
 
         // Request methods you wish to allow
         res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE');
